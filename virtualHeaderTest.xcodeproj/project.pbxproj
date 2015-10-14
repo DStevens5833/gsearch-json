@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41E1FD271BC9B059001B5D33 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E1FD261BC9B059001B5D33 /* main.swift */; };
+		41E1FD2E1BC9B068001B5D33 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E1FD2D1BC9B068001B5D33 /* Person.swift */; settings = {ASSET_TAGS = (); }; };
+		41E1FD301BC9E057001B5D33 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E1FD2F1BC9E057001B5D33 /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
+		41E1FD321BC9E087001B5D33 /* DiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E1FD311BC9E087001B5D33 /* DiceModel.swift */; settings = {ASSET_TAGS = (); }; };
+		41E1FD341BC9E126001B5D33 /* RandomNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E1FD331BC9E126001B5D33 /* RandomNumberGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		41E1FD361BC9E3C2001B5D33 /* DiceGameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E1FD351BC9E3C2001B5D33 /* DiceGameProtocol.swift */; settings = {ASSET_TAGS = (); }; };
+		41E1FD381BC9E3ED001B5D33 /* DiceGameDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E1FD371BC9E3ED001B5D33 /* DiceGameDelegateProtocol.swift */; settings = {ASSET_TAGS = (); }; };
+		41E1FD3A1BC9E412001B5D33 /* DiceGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E1FD391BC9E412001B5D33 /* DiceGameController.swift */; settings = {ASSET_TAGS = (); }; };
+		41E1FD3C1BC9E49A001B5D33 /* DiceGameDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E1FD3B1BC9E49A001B5D33 /* DiceGameDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41E1FD211BC9B059001B5D33 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		41209C401BCAD8E5001BCC61 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		41209C421BCAD8E5001BCC61 /* 2006-04-01 April 2006 to June 2006.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2006-04-01 April 2006 to June 2006.json"; sourceTree = "<group>"; };
+		41209C431BCAD8E5001BCC61 /* 2006-07-01 July 2006 to September 2006.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2006-07-01 July 2006 to September 2006.json"; sourceTree = "<group>"; };
+		41209C441BCAD8E5001BCC61 /* 2006-10-01 October 2006 to December 2006.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2006-10-01 October 2006 to December 2006.json"; sourceTree = "<group>"; };
+		41209C451BCAD8E5001BCC61 /* 2007-01-01 January 2007 to March 2007.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2007-01-01 January 2007 to March 2007.json"; sourceTree = "<group>"; };
+		41209C461BCAD8E5001BCC61 /* 2007-04-01 April 2007 to June 2007.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2007-04-01 April 2007 to June 2007.json"; sourceTree = "<group>"; };
+		41209C471BCAD8E5001BCC61 /* 2007-07-01 July 2007 to September 2007.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2007-07-01 July 2007 to September 2007.json"; sourceTree = "<group>"; };
+		41209C481BCAD8E5001BCC61 /* 2007-10-01 October 2007 to December 2007.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2007-10-01 October 2007 to December 2007.json"; sourceTree = "<group>"; };
+		41209C491BCAD8E5001BCC61 /* 2008-01-01 January 2008 to March 2008.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2008-01-01 January 2008 to March 2008.json"; sourceTree = "<group>"; };
+		41209C4A1BCAD8E5001BCC61 /* 2008-04-01 April 2008 to June 2008.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2008-04-01 April 2008 to June 2008.json"; sourceTree = "<group>"; };
+		41209C4B1BCAD8E5001BCC61 /* 2008-07-01 July 2008 to September 2008.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2008-07-01 July 2008 to September 2008.json"; sourceTree = "<group>"; };
+		41209C4C1BCAD8E5001BCC61 /* 2008-10-01 October 2008 to December 2008.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2008-10-01 October 2008 to December 2008.json"; sourceTree = "<group>"; };
+		41209C4D1BCAD8E5001BCC61 /* 2009-01-01 January 2009 to March 2009.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2009-01-01 January 2009 to March 2009.json"; sourceTree = "<group>"; };
+		41209C4E1BCAD8E5001BCC61 /* 2009-04-01 April 2009 to June 2009.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2009-04-01 April 2009 to June 2009.json"; sourceTree = "<group>"; };
+		41209C4F1BCAD8E5001BCC61 /* 2009-07-01 July 2009 to September 2009.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2009-07-01 July 2009 to September 2009.json"; sourceTree = "<group>"; };
+		41209C501BCAD8E5001BCC61 /* 2009-10-01 October 2009 to December 2009.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2009-10-01 October 2009 to December 2009.json"; sourceTree = "<group>"; };
+		41209C511BCAD8E5001BCC61 /* 2010-01-01 January 2010 to March 2010.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2010-01-01 January 2010 to March 2010.json"; sourceTree = "<group>"; };
+		41209C521BCAD8E5001BCC61 /* 2010-04-01 April 2010 to June 2010.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2010-04-01 April 2010 to June 2010.json"; sourceTree = "<group>"; };
+		41209C531BCAD8E5001BCC61 /* 2010-07-01 July 2010 to September 2010.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2010-07-01 July 2010 to September 2010.json"; sourceTree = "<group>"; };
+		41209C541BCAD8E5001BCC61 /* 2010-10-01 October 2010 to December 2010.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2010-10-01 October 2010 to December 2010.json"; sourceTree = "<group>"; };
+		41209C551BCAD8E5001BCC61 /* 2011-01-01 January 2011 to March 2011.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2011-01-01 January 2011 to March 2011.json"; sourceTree = "<group>"; };
+		41209C561BCAD8E5001BCC61 /* 2011-04-01 April 2011 to June 2011.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2011-04-01 April 2011 to June 2011.json"; sourceTree = "<group>"; };
+		41209C571BCAD8E5001BCC61 /* 2011-07-01 July 2011 to September 2011.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2011-07-01 July 2011 to September 2011.json"; sourceTree = "<group>"; };
+		41209C581BCAD8E5001BCC61 /* 2011-10-01 October 2011 to December 2011.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2011-10-01 October 2011 to December 2011.json"; sourceTree = "<group>"; };
+		41209C591BCAD8E5001BCC61 /* 2012-01-01 January 2012 to March 2012.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2012-01-01 January 2012 to March 2012.json"; sourceTree = "<group>"; };
+		41209C5A1BCAD8E5001BCC61 /* 2012-04-01 April 2012 to June 2012.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2012-04-01 April 2012 to June 2012.json"; sourceTree = "<group>"; };
+		41209C5B1BCAD8E5001BCC61 /* 2012-07-01 July 2012 to September 2012.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2012-07-01 July 2012 to September 2012.json"; sourceTree = "<group>"; };
+		41209C5C1BCAD8E5001BCC61 /* 2012-10-01 October 2012 to December 2012.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2012-10-01 October 2012 to December 2012.json"; sourceTree = "<group>"; };
+		41209C5D1BCAD8E5001BCC61 /* 2013-01-01 January 2013 to March 2013.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2013-01-01 January 2013 to March 2013.json"; sourceTree = "<group>"; };
+		41209C5E1BCAD8E5001BCC61 /* 2013-04-01 April 2013 to June 2013.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2013-04-01 April 2013 to June 2013.json"; sourceTree = "<group>"; };
+		41209C5F1BCAD8E5001BCC61 /* 2013-07-01 July 2013 to September 2013.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2013-07-01 July 2013 to September 2013.json"; sourceTree = "<group>"; };
+		41209C601BCAD8E5001BCC61 /* 2013-10-01 October 2013 to December 2013.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2013-10-01 October 2013 to December 2013.json"; sourceTree = "<group>"; };
+		41209C611BCAD8E5001BCC61 /* 2014-01-01 January 2014 to March 2014.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2014-01-01 January 2014 to March 2014.json"; sourceTree = "<group>"; };
+		41209C621BCAD8E5001BCC61 /* 2014-04-01 April 2014 to June 2014.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2014-04-01 April 2014 to June 2014.json"; sourceTree = "<group>"; };
+		41209C631BCAD8E5001BCC61 /* 2014-10-01 October 2014 to December 2014.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2014-10-01 October 2014 to December 2014.json"; sourceTree = "<group>"; };
+		41209C641BCAD8E5001BCC61 /* 2015-01-01 January 2015 to March 2015.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2015-01-01 January 2015 to March 2015.json"; sourceTree = "<group>"; };
+		41209C651BCAD8E5001BCC61 /* 2015-04-01 April 2015 to June 2015.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2015-04-01 April 2015 to June 2015.json"; sourceTree = "<group>"; };
+		41209C661BCAD8E5001BCC61 /* 2015-07-01 July 2015 to September 2015.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2015-07-01 July 2015 to September 2015.json"; sourceTree = "<group>"; };
+		41E1FD231BC9B059001B5D33 /* virtualHeaderTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = virtualHeaderTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E1FD261BC9B059001B5D33 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		41E1FD2D1BC9B068001B5D33 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		41E1FD2F1BC9E057001B5D33 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		41E1FD311BC9E087001B5D33 /* DiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceModel.swift; sourceTree = "<group>"; };
+		41E1FD331BC9E126001B5D33 /* RandomNumberGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumberGenerator.swift; sourceTree = "<group>"; };
+		41E1FD351BC9E3C2001B5D33 /* DiceGameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceGameProtocol.swift; sourceTree = "<group>"; };
+		41E1FD371BC9E3ED001B5D33 /* DiceGameDelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceGameDelegateProtocol.swift; sourceTree = "<group>"; };
+		41E1FD391BC9E412001B5D33 /* DiceGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceGameController.swift; sourceTree = "<group>"; };
+		41E1FD3B1BC9E49A001B5D33 /* DiceGameDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceGameDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41E1FD201BC9B059001B5D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41209C3F1BCAD8E5001BCC61 /* Searches */ = {
+			isa = PBXGroup;
+			children = (
+				41209C401BCAD8E5001BCC61 /* index.html */,
+				41209C411BCAD8E5001BCC61 /* Searches */,
+			);
+			path = Searches;
+			sourceTree = "<group>";
+		};
+		41209C411BCAD8E5001BCC61 /* Searches */ = {
+			isa = PBXGroup;
+			children = (
+				41209C421BCAD8E5001BCC61 /* 2006-04-01 April 2006 to June 2006.json */,
+				41209C431BCAD8E5001BCC61 /* 2006-07-01 July 2006 to September 2006.json */,
+				41209C441BCAD8E5001BCC61 /* 2006-10-01 October 2006 to December 2006.json */,
+				41209C451BCAD8E5001BCC61 /* 2007-01-01 January 2007 to March 2007.json */,
+				41209C461BCAD8E5001BCC61 /* 2007-04-01 April 2007 to June 2007.json */,
+				41209C471BCAD8E5001BCC61 /* 2007-07-01 July 2007 to September 2007.json */,
+				41209C481BCAD8E5001BCC61 /* 2007-10-01 October 2007 to December 2007.json */,
+				41209C491BCAD8E5001BCC61 /* 2008-01-01 January 2008 to March 2008.json */,
+				41209C4A1BCAD8E5001BCC61 /* 2008-04-01 April 2008 to June 2008.json */,
+				41209C4B1BCAD8E5001BCC61 /* 2008-07-01 July 2008 to September 2008.json */,
+				41209C4C1BCAD8E5001BCC61 /* 2008-10-01 October 2008 to December 2008.json */,
+				41209C4D1BCAD8E5001BCC61 /* 2009-01-01 January 2009 to March 2009.json */,
+				41209C4E1BCAD8E5001BCC61 /* 2009-04-01 April 2009 to June 2009.json */,
+				41209C4F1BCAD8E5001BCC61 /* 2009-07-01 July 2009 to September 2009.json */,
+				41209C501BCAD8E5001BCC61 /* 2009-10-01 October 2009 to December 2009.json */,
+				41209C511BCAD8E5001BCC61 /* 2010-01-01 January 2010 to March 2010.json */,
+				41209C521BCAD8E5001BCC61 /* 2010-04-01 April 2010 to June 2010.json */,
+				41209C531BCAD8E5001BCC61 /* 2010-07-01 July 2010 to September 2010.json */,
+				41209C541BCAD8E5001BCC61 /* 2010-10-01 October 2010 to December 2010.json */,
+				41209C551BCAD8E5001BCC61 /* 2011-01-01 January 2011 to March 2011.json */,
+				41209C561BCAD8E5001BCC61 /* 2011-04-01 April 2011 to June 2011.json */,
+				41209C571BCAD8E5001BCC61 /* 2011-07-01 July 2011 to September 2011.json */,
+				41209C581BCAD8E5001BCC61 /* 2011-10-01 October 2011 to December 2011.json */,
+				41209C591BCAD8E5001BCC61 /* 2012-01-01 January 2012 to March 2012.json */,
+				41209C5A1BCAD8E5001BCC61 /* 2012-04-01 April 2012 to June 2012.json */,
+				41209C5B1BCAD8E5001BCC61 /* 2012-07-01 July 2012 to September 2012.json */,
+				41209C5C1BCAD8E5001BCC61 /* 2012-10-01 October 2012 to December 2012.json */,
+				41209C5D1BCAD8E5001BCC61 /* 2013-01-01 January 2013 to March 2013.json */,
+				41209C5E1BCAD8E5001BCC61 /* 2013-04-01 April 2013 to June 2013.json */,
+				41209C5F1BCAD8E5001BCC61 /* 2013-07-01 July 2013 to September 2013.json */,
+				41209C601BCAD8E5001BCC61 /* 2013-10-01 October 2013 to December 2013.json */,
+				41209C611BCAD8E5001BCC61 /* 2014-01-01 January 2014 to March 2014.json */,
+				41209C621BCAD8E5001BCC61 /* 2014-04-01 April 2014 to June 2014.json */,
+				41209C631BCAD8E5001BCC61 /* 2014-10-01 October 2014 to December 2014.json */,
+				41209C641BCAD8E5001BCC61 /* 2015-01-01 January 2015 to March 2015.json */,
+				41209C651BCAD8E5001BCC61 /* 2015-04-01 April 2015 to June 2015.json */,
+				41209C661BCAD8E5001BCC61 /* 2015-07-01 July 2015 to September 2015.json */,
+			);
+			path = Searches;
+			sourceTree = "<group>";
+		};
+		41E1FD1A1BC9B059001B5D33 = {
+			isa = PBXGroup;
+			children = (
+				41209C3F1BCAD8E5001BCC61 /* Searches */,
+				41E1FD251BC9B059001B5D33 /* virtualHeaderTest */,
+				41E1FD241BC9B059001B5D33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41E1FD241BC9B059001B5D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41E1FD231BC9B059001B5D33 /* virtualHeaderTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41E1FD251BC9B059001B5D33 /* virtualHeaderTest */ = {
+			isa = PBXGroup;
+			children = (
+				41E1FD391BC9E412001B5D33 /* DiceGameController.swift */,
+				41E1FD3B1BC9E49A001B5D33 /* DiceGameDelegate.swift */,
+				41E1FD371BC9E3ED001B5D33 /* DiceGameDelegateProtocol.swift */,
+				41E1FD351BC9E3C2001B5D33 /* DiceGameProtocol.swift */,
+				41E1FD311BC9E087001B5D33 /* DiceModel.swift */,
+				41E1FD2F1BC9E057001B5D33 /* Extensions.swift */,
+				41E1FD261BC9B059001B5D33 /* main.swift */,
+				41E1FD2D1BC9B068001B5D33 /* Person.swift */,
+				41E1FD331BC9E126001B5D33 /* RandomNumberGenerator.swift */,
+			);
+			path = virtualHeaderTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41E1FD221BC9B059001B5D33 /* virtualHeaderTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E1FD2A1BC9B059001B5D33 /* Build configuration list for PBXNativeTarget "virtualHeaderTest" */;
+			buildPhases = (
+				41E1FD1F1BC9B059001B5D33 /* Sources */,
+				41E1FD201BC9B059001B5D33 /* Frameworks */,
+				41E1FD211BC9B059001B5D33 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = virtualHeaderTest;
+			productName = virtualHeaderTest;
+			productReference = 41E1FD231BC9B059001B5D33 /* virtualHeaderTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41E1FD1B1BC9B059001B5D33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = self;
+				TargetAttributes = {
+					41E1FD221BC9B059001B5D33 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 41E1FD1E1BC9B059001B5D33 /* Build configuration list for PBXProject "virtualHeaderTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41E1FD1A1BC9B059001B5D33;
+			productRefGroup = 41E1FD241BC9B059001B5D33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41E1FD221BC9B059001B5D33 /* virtualHeaderTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41E1FD1F1BC9B059001B5D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E1FD2E1BC9B068001B5D33 /* Person.swift in Sources */,
+				41E1FD341BC9E126001B5D33 /* RandomNumberGenerator.swift in Sources */,
+				41E1FD361BC9E3C2001B5D33 /* DiceGameProtocol.swift in Sources */,
+				41E1FD271BC9B059001B5D33 /* main.swift in Sources */,
+				41E1FD321BC9E087001B5D33 /* DiceModel.swift in Sources */,
+				41E1FD3A1BC9E412001B5D33 /* DiceGameController.swift in Sources */,
+				41E1FD301BC9E057001B5D33 /* Extensions.swift in Sources */,
+				41E1FD3C1BC9E49A001B5D33 /* DiceGameDelegate.swift in Sources */,
+				41E1FD381BC9E3ED001B5D33 /* DiceGameDelegateProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41E1FD281BC9B059001B5D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41E1FD291BC9B059001B5D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		41E1FD2B1BC9B059001B5D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41E1FD2C1BC9B059001B5D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41E1FD1E1BC9B059001B5D33 /* Build configuration list for PBXProject "virtualHeaderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E1FD281BC9B059001B5D33 /* Debug */,
+				41E1FD291BC9B059001B5D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E1FD2A1BC9B059001B5D33 /* Build configuration list for PBXNativeTarget "virtualHeaderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E1FD2B1BC9B059001B5D33 /* Debug */,
+				41E1FD2C1BC9B059001B5D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41E1FD1B1BC9B059001B5D33 /* Project object */;
+}
